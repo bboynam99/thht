@@ -49,7 +49,7 @@ export const Mint = () => {
                         className={styles.button}
                         onClick={() => tonConnectUi.openModal()}
                     >
-                        Connect Wallet
+                        Connect Wallet1
                     </button>
                 )}
                 {error && (
