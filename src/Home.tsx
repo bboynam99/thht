@@ -293,7 +293,7 @@ const Home = (props: HomeProps) => {
       <>
         <Header>
           <WalletContainer>
-            <TonConnectUIProvider manifestUrl="https://tonconnect-test.vercel.app/tonconnect-manifest.json">
+            <TonConnectUIProvider manifestUrl="https://thht-two.vercel.app/tonconnect-manifest.json">
               <TonConnectButton />
             </TonConnectUIProvider>
           </WalletContainer>
