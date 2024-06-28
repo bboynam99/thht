@@ -68,7 +68,7 @@ const Main = ({ }) => {
   );
 
   return (
-    <TonConnectUIProvider manifestUrl="https://tonconnect-test.vercel.app/tonconnect-manifest.json">
+    <TonConnectUIProvider manifestUrl="https://thht-two.vercel.app/tonconnect-manifest.json">
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={wallets} autoConnect={true}>
