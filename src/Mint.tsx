@@ -35,7 +35,7 @@ export const Mint = () => {
     };
 
     return (
-        <TonConnectUIProvider manifestUrl="https://tonconnect-test.vercel.app/tonconnect-manifest.json">
+        <TonConnectUIProvider manifestUrl="https://thht-two.vercel.app/tonconnect-manifest.json">
             <div>
                 {wallet ? (
                     <button 
