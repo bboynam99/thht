@@ -327,7 +327,10 @@ const Home = (props: HomeProps) => {
                Hurry up to get it.
               </p>
               <p>
-               Pay only for TON first collection costs 0 MNP
+               Pay only for TON
+              </p>
+               <p>
+               First collection costs 0 MNP
               </p>
 
               <MintCount>
