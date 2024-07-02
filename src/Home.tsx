@@ -324,7 +324,7 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-               10,000 NFT Let's dream up. Hurry up to get it.
+               10,000 NFT Let's get creative. Hurry up to get it. Pay only for $TON>first collection costs 0 $MNP
               </p>
 
               <MintCount>
