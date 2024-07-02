@@ -324,8 +324,7 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-                6942 Rejected f00kers here to f00k shit up. 3 mints max per
-                wallet. Free. f00k f00k Mother f00kers.
+               10,000 NFT Let's dream up. Hurry up to get it.
               </p>
 
               <MintCount>
