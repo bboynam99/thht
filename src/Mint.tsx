@@ -14,7 +14,7 @@ const myTransaction = {
     messages: [
         {
             address: process.env.NEXT_PUBLIC_CONTRACT,
-            amount: toNano(0.15).toString(),
+            amount: toNano(5).toString(),
             payload: body.toBoc().toString("base64") // payload with comment in body
         }
     ]
