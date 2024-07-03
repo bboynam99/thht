@@ -277,7 +277,8 @@ const Home = (props: HomeProps) => {
     useEffect(() => {
         const fetchMintInfo = async () => {
             try {
-                const response = await axios.get(`${process.env.NEXT_PUBLIC_CONTRACT_MINTED}/${process.env.NEXT_PUBLIC_CONTRACT}`);
+              const response = await axios.get(`<https://tonapi.io/v2/nfts/collections/>/${process.env.NEXT_PUBLIC_CONTRACT}`);
+                //const response = await axios.get(`${process.env.NEXT_PUBLIC_CONTRACT_MINTED}/${process.env.NEXT_PUBLIC_CONTRACT}`);
                 const data = response.data;
                 setMintInfo({ minted: data.next_item_index, total: data.items_count });
             } catch (error) {
