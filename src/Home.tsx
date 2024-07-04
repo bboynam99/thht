@@ -381,10 +381,7 @@ const Home = (props: HomeProps) => {
 };
 
 export default Home;
-
-const renderGoLiveDateCounter = ({ days, hours, minutes, seconds }: any) => {
-  return (
-    <svg  width="100%" viewBox="0 0 555 100" fill="none" xmlns="http://www.w3.org/2000/svg" href="http://www.w3.org/1999/xlink">
+<svg  width="100%" viewBox="0 0 555 100" fill="none" xmlns="http://www.w3.org/2000/svg" href="http://www.w3.org/1999/xlink">
 <defs>
 <mask id="cp">
 <path fill="white" transform="translate(-100)" d="M533.771 0H0V620H727V247.5L533.771 0Z" />
@@ -392,6 +389,8 @@ const renderGoLiveDateCounter = ({ days, hours, minutes, seconds }: any) => {
 </defs>
 <image mask="url(#cp)"  id="image0" width="35%" height="100%" href="https://bespectacled.fun/image/combesp.png" /> 
 </svg> 
+const renderGoLiveDateCounter = ({ days, hours, minutes, seconds }: any) => {
+  return (
     <div>
       <Card elevation={1}>
         <h1>{days}</h1>Days
